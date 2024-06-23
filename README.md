@@ -21,7 +21,7 @@ To begin with the project, follow these steps:
 
 Clone the Repository:
 
-git clone [ https://github.com/your-username/gender-media-project](https://github.com/Fabrizio994/Progetto-ts.git)
+git clone https://github.com/Fabrizio994/Progetto-ts.git
 cd gender-media-project
 Install Dependencies:
 
