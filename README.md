@@ -1,13 +1,41 @@
-# Media Online per la Parità di Genere
-Questo progetto si propone di sviluppare un sistema in TypeScript che modella la struttura operativa di un media online dedicato alla promozione della parità di genere nei media. Il sistema si concentra sulle interazioni tra professioniste dei media, programmi di formazione e piattaforme di pubblicazione.
+# GenderMedia - TypeScript Project
+The Project
+This project involves the development of a TypeScript system that models the operational structure of an online media supporting gender equality. It focuses on interactions between media professionals, training programs, and publishing platforms.
 
-# Descrizione del Progetto
-Il progetto utilizza TypeScript per definire interfacce e classi che rappresentano i vari componenti del sistema:
+## GenderMedia - The Idea
+The concept originated from the need to promote gender equality and diversity in media. The system aims to showcase how technology can facilitate this goal through interfaces and classes representing key components: IProfessionistaMedia (Media Professional), IProgrammaFormazione (Training Program), and IPiattaforma (Platform).
 
-IProfessionistaMedia: Interfaccia che definisce le caratteristiche di un professionista dei media, inclusi nome, cognome, specializzazione, esperienza e interessi.
-IProgrammaFormazione: Interfaccia per definire i programmi di formazione, con titolo, descrizione, ambito di specializzazione, durata e elenco dei partecipanti.
-IPiattaforma: Interfaccia per modellare le piattaforme di pubblicazione di contenuti, specificando nome, tipo, descrizione e categorie di contenuto supportate.
-# Obiettivi del Progetto
-Implementare le interfacce e le classi in TypeScript per rappresentare i professionisti dei media, i programmi di formazione e le piattaforme di pubblicazione.
-Dimostrare come la tecnologia può essere utilizzata per facilitare la promozione della parità di genere e della diversità nei media.
-Creare un sistema interattivo che consenta l'interazione tra i vari componenti, evidenziando l'importanza della partecipazione delle donne e la loro rappresentazione nei media
+## Requirements
+To fulfill the project's objectives, the following components are defined:
+
+IProfessionistaMedia: Interface representing media professionals with attributes like name, specialization, and experience.
+IProgrammaFormazione: Interface representing training programs with details such as title, description, and participants.
+IPiattaforma: Interface representing publishing platforms with attributes like name, type, and content categories.
+Implementations are required for:
+
+ProfessionistaMedia: Class implementing IProfessionistaMedia.
+ProgrammaFormazione: Class implementing IProgrammaFormazione.
+Piattaforma: Class implementing IPiattaforma.
+## How to Install and Run the Project
+To begin with the project, follow these steps:
+
+Clone the Repository:
+
+git clone https://github.com/your-username/gender-media-project
+cd gender-media-project
+Install Dependencies:
+
+npm install
+Compile TypeScript Code:
+
+npx tsc
+Run the Project:
+
+node dist/index.js
+Ensure you have Node.js installed on your system to successfully run the project.
+
+Optional: Run Tests:
+
+If there are tests available in the project, you can run them using:
+
+npm test
